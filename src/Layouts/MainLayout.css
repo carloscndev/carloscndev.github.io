@@ -1,0 +1,16 @@
+.layout-wrapper {
+  background-color: var(--bg-dark);
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  overflow: hidden;
+  margin: auto;
+}
+
+
+@media (min-width: 1024px) {
+  .layout-wrapper {
+    grid-template-columns: 40% 1fr; 
+    max-width: 1024px;
+  }
+}

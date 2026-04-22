@@ -1,0 +1,115 @@
+/* Rest Css */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Font Space Grotesk */
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('./assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('./assets/fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('./assets/fonts/SpaceGrotesk-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Font Inter */
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+:root {
+    /* --- Colors --- */
+  --bg-dark: #080D29;
+  --accent-purple: #331FE8;
+  --text-main: #DCDEF7;
+  --text-secondary: #331FE8;
+  --text-accent: #7F8BE4 ;
+
+
+  /* --- Typography --- */
+  --font-titles: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --weight-space-regular: 400;
+  --weight-space-medium: 500;
+  --weight-space-semibold: 600;
+
+  --weight-inter-regular: 400;
+  --weight-inter-medium: 500;
+
+  /* --- Spaces --- */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --border-radius: 5px;
+}
+
+body {
+  background-color: var(--bg-dark);
+  font-family: var(--font-body);
+  font-weight: var(--weight-inter-regular);
+  font-size: var(--size-body);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-titles);
+  line-height: 1.2;
+}
