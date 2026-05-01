@@ -1,0 +1,25 @@
+.social-sidebar {
+  display: flex;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 80%;
+  justify-content: space-around;
+
+  .github-icon, .instagram-icon, .linkedIn-icon {
+    width: 24px;
+  }
+
+  .globe-icon, .mail-icon {
+    width: 28px;
+  }
+
+  svg {
+    transition: transform 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+      color: var(--accent-purple);
+    }
+  }
+}
