@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import ImageProfile from '../ImageProfile/ImageProfile';
 import JobTitle from '../JobTitle/JobTitle';
 import AboutMe from '../AboutMe/AboutMe';
+import Skills from '../Skills/Skills';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <JobTitle />
       <main className="main-content">
         <AboutMe />
+        <Skills />
       </main>
       <div className="social-sidebar">
           Icons
