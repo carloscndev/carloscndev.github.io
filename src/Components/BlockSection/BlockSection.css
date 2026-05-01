@@ -1,0 +1,8 @@
+.block-section {
+  margin-bottom: var(--spacing-md);
+  
+  .section-title {
+    color: var(--accent-purple);
+    margin-bottom: var(--spacing-sm);
+  }
+}

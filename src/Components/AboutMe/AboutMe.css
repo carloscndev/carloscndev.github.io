@@ -1,0 +1,10 @@
+.about-me-content {
+  p {
+    margin-bottom: var(  --spacing-sm);
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+}
