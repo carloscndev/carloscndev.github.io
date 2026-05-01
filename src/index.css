@@ -74,15 +74,14 @@ body {
 }
 
 :root {
-    /* --- Colors --- */
+/* --- Colors --- */
   --bg-dark: #080D29;
   --accent-purple: #331FE8;
   --text-main: #DCDEF7;
-  --text-secondary: #331FE8;
   --text-accent: #7F8BE4 ;
 
 
-  /* --- Typography --- */
+/* --- Typography --- */
   --font-titles: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
 
@@ -93,7 +92,16 @@ body {
   --weight-inter-regular: 400;
   --weight-inter-medium: 500;
 
-  /* --- Spaces --- */
+  --size-mobile-h1: 1.75rem;
+  --size-mobile-h2: 1.25rem;
+  --size-mobile-h3: 1rem;
+
+  --size-desktop-h1: 1.75rem;
+  --size-desktop-h2: 1.25rem;
+  --size-desktop-h3: 1rem;
+
+
+/* --- Spaces --- */
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
@@ -112,4 +120,15 @@ body {
 h1, h2, h3, h4 {
   font-family: var(--font-titles);
   line-height: 1.2;
+}
+
+h1 { font-weight: var(--weight-space-semibold); font-size: var(--size-mobile-h1); }
+h2 { font-weight: var(--weight-space-medium); font-size: var(--size-mobile-h2); }
+h2 { font-weight: var(--weight-space-semibold); font-size: var(--size-mobile-h3); }
+
+
+@media (min-width: 1024px) {
+  h1 { font-size: var(--size-desktop-h1); }
+  h2 { font-size: var(--size-desktop-h2); }
+  h3 { font-size: var(--size-desktop-h3); }
 }

@@ -1,6 +1,6 @@
 import photo from '../../assets/images/profile.jpg';
 
-function ImageProfile() {
+const ImageProfile = () => {
   return (
     <img src={photo} alt="Carlos Castañeda" className="profile-img" />
   );

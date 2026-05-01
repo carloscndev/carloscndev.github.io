@@ -5,12 +5,32 @@
   height: 100vh;
   overflow: hidden;
   margin: auto;
+  display: grid;
+  grid-template-areas:
+    "brand"
+    "photo"
+    "job"
+    "main"
+    "social";
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
 }
+.brand-header { grid-area: brand; }
+.photo-area   { grid-area: photo; }
+.job-title    { grid-area: job; }
+.main-content { grid-area: main; }
+.social-sidebar { grid-area: social; }
 
 
 @media (min-width: 1024px) {
   .layout-wrapper {
     grid-template-columns: 40% 1fr; 
     max-width: 1024px;
+    grid-template-areas:
+      "photo brand"
+      "photo job"
+      "photo main"
+      "social main";
+    height: 100vh;
   }
 }
