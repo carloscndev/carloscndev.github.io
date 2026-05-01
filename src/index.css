@@ -123,7 +123,7 @@ h1, h2, h3, h4 {
 }
 
 h1 { font-weight: var(--weight-space-semibold); font-size: var(--size-mobile-h1); }
-h2 { font-weight: var(--weight-space-medium); font-size: var(--size-mobile-h2); }
+h2 { font-weight: var(--weight-space-semibold); font-size: var(--size-mobile-h2); }
 h2 { font-weight: var(--weight-space-semibold); font-size: var(--size-mobile-h3); }
 
 

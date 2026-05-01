@@ -1,0 +1,11 @@
+.job-title {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .job-title {
+    text-align: left;
+  }
+}

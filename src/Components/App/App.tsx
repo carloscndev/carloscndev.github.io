@@ -1,6 +1,7 @@
 import { MainLayout } from '../../Layouts/MainLayout';
 import Header from '../Header/Header';
 import ImageProfile from '../ImageProfile/ImageProfile';
+import JobTitle from '../JobTitle/JobTitle';
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <MainLayout>
       <Header />
       <ImageProfile />
-      <h2 className="job-title">Software Engineer</h2>
+      <JobTitle />
       <main className="main-content">
         Main Section
       </main>
