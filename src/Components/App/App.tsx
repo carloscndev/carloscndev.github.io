@@ -7,12 +7,8 @@ function App() {
   return (
     <MainLayout>
       <Header />
-      <div className="photo-area">
-          <ImageProfile />
-      </div>
-
+      <ImageProfile />
       <h2 className="job-title">Software Engineer</h2>
-    
       <main className="main-content">
         Main Section
       </main>

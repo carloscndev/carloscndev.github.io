@@ -1,0 +1,39 @@
+.photo-area {
+  grid-area: photo;
+  background-image: 
+    linear-gradient(color-mix(in srgb, var(--accent-purple), transparent 40%)),
+    url('../../assets/images/profile.jpg');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid  var(--text-main);
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  height: 120px;
+  width: 120px;
+
+  .web-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .photo-area {
+    background-position: 25% center;
+    border: none;
+    border-radius: 0; 
+    top: 0;
+    position: sticky;
+    height: 100vh;
+    width: 100%;
+
+    .web-icon {
+      bottom: 30px;
+      display: inherit;
+      position: absolute;
+      right: 30px;
+      width: 150px;
+    }
+  }
+}

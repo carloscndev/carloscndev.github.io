@@ -1,8 +1,11 @@
-import photo from '../../assets/images/profile.jpg';
+import WebIcon from '../../Icons/WebIcon';
+import './ImageProfile.css';
 
 const ImageProfile = () => {
   return (
-    <img src={photo} alt="Carlos Castañeda" className="profile-img" />
+    <div className="photo-area">
+      <WebIcon className='web-icon'/>
+    </div>
   );
 }
 
