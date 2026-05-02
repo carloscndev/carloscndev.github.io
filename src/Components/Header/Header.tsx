@@ -5,7 +5,7 @@ const Header = () => (
     <h1 className="name">Carlos Castañeda Nava</h1>
     <a
       className="action-button"
-      href="../../../public/files/CV-CarlosCastanedaNava.pdf"
+      href="/files/CV-CarlosCastanedaNava.pdf"
       target="_blank" 
       rel="noopener noreferrer"
     >CV ↓</a>
