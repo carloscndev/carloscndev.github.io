@@ -67,17 +67,18 @@
     }
 
   }
+  
+  .experience-block.open {
+    .radio-circle .inner-dot {
+      transform: scale(1);
+    }
+  
+    .experience-content-wrapper {
+      grid-template-rows: 1fr;
+    }
+  }
 }
 
-.experience-block.open {
-  .inner-dot {
-    transform: scale(1);
-  }
-
-  .experience-content-wrapper {
-    grid-template-rows: 1fr;
-  }
-}
 
 .experience-block:last-child::before {
   height: 0;
