@@ -1,0 +1,56 @@
+[
+  {
+    "id": "c3-ai-se",
+    "company": "C3 AI",
+    "role": "Software Engineer (Generative AI)",
+    "period": "Jan 2023 - May 2025",
+    "description": [
+      "Designed and maintained production-grade full stack applications serving enterprise clients, improving feature delivery cycles and system scalability.",
+      "Led end-to-end feature development, from technical design and architecture decisions to deployment and maintenance.",
+      "Built internal tools and systems to support the adoption and integration of <strong>Generative AI</strong> capabilities into enterprise applications.",
+      "Developed end-to-end <strong>Machine Learning</strong> pipelines within distributed systems.",
+      "Integrated <strong>language models</strong> into real product workflows and third party platforms.",
+      "Collaborated closely with Product Managers, <strong>UX/UI Designers</strong>, and engineering teams across the development lifecycle."
+    ]
+  },
+  {
+    "id": "liverpool-se",
+    "company": "Liverpool",
+    "role": "Software Engineer",
+    "period": "Feb 2020 - Nov 2022",
+    "description": [
+      "Contributed to the development and maintenance of one of the largest ecommerce platforms in Mexico, serving over <strong>34 million monthly active users</strong>.",
+      "Developed and delivered new ecommerce features using a <strong>React ecosystem</strong> stack, Next.js, Node.js, Hapi.js, Stylus.",
+      "Designed and implemented cloud functions (<strong>GCP</strong>) to automate frontend workflows and processes.",
+      "Proposed and implemented frontend performance optimizations improving load time and overall user experience across high-traffic ecommerce flows.",
+      "Developed internal tools to improve code quality and development workflows within the frontend team."
+    ]
+  },
+  {
+    "id": "sngular-fd",
+    "company": "Sngular",
+    "role": "Frontend Developer",
+    "period": "Mar 2018 - Feb 2020",
+    "description": [
+      "Led frontend development for ecommerce projects using modern React based architectures.",
+      "Migrated legacy platforms toward modern frontend stacks using <strong>Gatsby.js</strong>, Apollo GraphQL, and Styled Components.",
+      "Built reusable UI components using <strong>React, Redux, and Sass</strong>.",
+      "Implemented unit testing strategies using <strong>Jest</strong>.",
+      "Contributed to <strong>CI/CD</strong> pipeline implementation using Travis CI and <strong>AWS</strong>.",
+      "Developed backend services and automation tools using <strong>Node.js and Express</strong>.",
+      "Built <strong>AWS Lambda</strong> functions to automate internal processes."
+    ]
+  },
+  {
+    "id": "metro-sd",
+    "company": "Sistema de transporte colectivo Metro",
+    "role": "Software Developer",
+    "period": "Aug 2015 - Mar 2018",
+    "description": [
+      "Implemented <strong>open source</strong> solutions to replace licensed software and reduce operational costs.",
+      "Designed and implemented web based monitoring platforms using <strong>HTML5, CSS3, JavaScript, Python, and Linux</strong>.",
+      "Developed monitoring tools for signaling infrastructure using <strong>PHP</strong> and web technologies.",
+      "Contributed to the modernization of <strong>embedded systems</strong> using C/C++ for legacy electronic platforms."
+    ]
+  }
+]

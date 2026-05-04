@@ -16,7 +16,7 @@
     outline: inherit;
     font-weight: var(--weight-space-semibold);
     user-select: none;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     display: flex;
     align-items: center;
     justify-content: center;

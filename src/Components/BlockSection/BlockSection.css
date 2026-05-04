@@ -1,5 +1,5 @@
 .block-section {
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
   
   .section-title {
     color: var(--accent-purple);

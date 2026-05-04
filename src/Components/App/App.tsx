@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import ImageProfile from '../ImageProfile/ImageProfile';
 import JobTitle from '../JobTitle/JobTitle';
 import AboutMe from '../AboutMe/AboutMe';
+import Experience from '../Experience/Experience';
 import Skills from '../Skills/Skills';
 import Education from '../Education/Education';
 import IconsSidebar from '../IconsSidebar/IconsSidebar';
@@ -16,6 +17,7 @@ function App() {
       <JobTitle />
       <main className="main-content">
         <AboutMe />
+        <Experience />
         <Skills />
         <Education />
       </main>
