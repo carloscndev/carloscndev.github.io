@@ -1,5 +1,5 @@
 import BlockSection from "../BlockSection/BlockSection";
-
+import './Education.css'
 interface EducationItemProps {
   title: string;
   period: string;
