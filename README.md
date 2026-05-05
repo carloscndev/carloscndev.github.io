@@ -1,73 +1,43 @@
-# React + TypeScript + Vite
+# Carlos Castañeda Nava | Software Engineer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository hosts my personal landing page and portfolio, designed to showcase my experience in full-stack development, AI integration, and software architecture.
 
-Currently, two official plugins are available:
+## 🚀 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I am a **Software Engineer** specializing in frontend development within the **React ecosystem**. My expertise spans the entire development lifecycle, from building RESTful services to deploying scalable cloud solutions.
 
-## React Compiler
+*   **Frontend:** React, Redux, TypeScript, JavaScript, GraphQL, RxJS, HTML/CSS.
+*   **Backend & Cloud:** Node.js, Python, FastAPI, AWS, GCP.
+*   **AI & Machine Learning:** Generative AI, ML Pipelines, Model Integration.
+*   **Engineering:** End-to-End System Design, Technical Leadership, CI/CD.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I enjoy collaborating with cross-functional teams to deliver maintainable, high-quality software and exploring UI design aesthetics.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This project was built with a focus on speed and modern developer experience:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+*   **Vite** - Next-generation frontend tooling.
+*   **React** - UI library for building the interface.
+*   **TypeScript** - For type-safe development.
+*   **CSS** - For modern, utility-first styling.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ⚙️ Local Development
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+To run this project on your local machine:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/carloscndev/carloscndev.github.io.git](https://github.com/carloscndev/carloscndev.github.io.git)
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+---
+📫 **Connect with me:**
+[LinkedIn](https://www.linkedin.com/in/carloscndev) | [Portfolio Site](https://carloscndev.github.io)
