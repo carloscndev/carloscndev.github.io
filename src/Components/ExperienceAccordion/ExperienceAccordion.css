@@ -1,5 +1,5 @@
 .experience-accordion {
-  margin-bottom: 1em;
+  margin-top: var(--spacing-md);
   
   .experience-block {
     margin-bottom: var(--spacing-md);
