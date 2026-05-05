@@ -42,7 +42,7 @@
 
 .main-content {
   scrollbar-color: var(--accent-purple) var(--bg-dark);
-  scrollbar-width: thin; /* Opciones: auto, thin, none */
+  scrollbar-width: thin;
 }
 
 
